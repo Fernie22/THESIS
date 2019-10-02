@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Agapay</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- table css -->
+  <link href="css/table.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="card">
+
+   <!-- Card content -->
+   <div class="card-body">
+
+      <!-- Title -->
+      <h4 class="card-title"><a>Individual Lab Test</a></h4><br>
+<!-- Extended default form grid -->
+<form>
+  <!-- Grid row -->
+  <div class="form-row">
+    <!-- Default input -->
+    <div class="form-group col-md-6">
+      <label for="lastname">Last Name</label>
+        <input type="name" class="form-control" id="lastname" placeholder="Last Name">
+  </div>
+    <!-- Default input -->
+    <div class="form-group col-md-6">
+      <label for="firstname">First Name</label>
+      <input type="name" class="form-control" id="firstname" placeholder="First Name">
+    </div>
+
+    <!-- Grid row-->
+    
+    <!-- Default input -->
+    <div class="form-group col-md-6">
+        <label for="recordNum">Record Number</label>
+        <input type="number" class="form-control" id="recordNum" placeholder="Record Number">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="birthdate">Date of Birth</label>
+        <input type="date" class="form-control" id="birthdate" placeholder="">
+      </div>
+     </div>
+
+     <!-- Grid row-->
+    <div class="form-row">
+        <!-- Default input -->
+        <div class="form-group col-md-6">
+            <label for="telno">Telephone Number</label>
+            <input type="number" class="form-control" id="telno" placeholder="Telephone Number">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="mobileno">Mobile Number</label>
+            <input type="number" class="form-control" id="mobileno" placeholder="Mobile Number">
+          </div>
+          </div>
+          
+              
+          <!-- Editable table -->
+<div class="card">
+  <h3 class="card-header text-center font-weight-bold text-uppercase py-4">Lab Result Table</h3>
+  <div class="card-body">
+    <div id="table" class="table-editable">
+      <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-success">
+        <i class="fas fa-plus fa-2x" aria-hidden="true"></i></a></span>
+      <table class="table table-bordered table-responsive-md table-striped text-center">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+                <th scope="col">Name of Test</th>
+                <th scope="col">Date</th>
+                <th scope="col">The Result</th>
+                <th scope="col">Conducted By</th>
+                <th scope="col">Diagnosis Summary</th>
+                <th scope="col">Sort</th>
+                <th scope="col">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="pt-3-half" contenteditable="false">1</td>
+            <td class="pt-3-half" contenteditable="true">UTI Test</td>
+            <td class="pt-3-half" contenteditable="true">10/02/2019</td>
+            <td class="pt-3-half" contenteditable="true">Minor change</td>
+            <td class="pt-3-half" contenteditable="true">Dr. Balbido</td>
+            <td class="pt-3-half" contenteditable="true">Drink more water</td>
+            <td class="pt-3-half">
+              <span class="table-up"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-up"
+                    aria-hidden="true"></i></a></span>
+              <span class="table-down"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-down"
+                    aria-hidden="true"></i></a></span>
+            </td>
+            <td>
+              <span class="table-remove"><button type="button"
+                  class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+            </td>
+          </tr>
+          <!-- This is our clonable table line -->
+          <tr>
+              <td class="pt-3-half" contenteditable="false">2</td>
+              <td class="pt-3-half" contenteditable="true">Ultrasound</td>
+              <td class="pt-3-half" contenteditable="true">10/02/2019</td>
+              <td class="pt-3-half" contenteditable="true">Clear</td>
+              <td class="pt-3-half" contenteditable="true">Dr. Balbido</td>
+              <td class="pt-3-half" contenteditable="true">Monitor Belly Size growth</td>
+              <td class="pt-3-half">
+              <span class="table-up"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-up"
+                    aria-hidden="true"></i></a></span>
+              <span class="table-down"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-down"
+                    aria-hidden="true"></i></a></span>
+            </td>
+            <td>
+              <span class="table-remove"><button type="button"
+                  class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+            </td>
+          </tr>
+          <!-- This is our clonable table line -->
+          <tr>
+              <td class="pt-3-half" contenteditable="false">3</td>
+              <td class="pt-3-half" contenteditable="true">Papsmear</td>
+              <td class="pt-3-half" contenteditable="true">10/02/2019</td>
+              <td class="pt-3-half" contenteditable="true">Clear</td>
+              <td class="pt-3-half" contenteditable="true">Dr. Balbido</td>
+              <td class="pt-3-half" contenteditable="true">No signs of cervical cancer</td>
+              <td class="pt-3-half">
+              <span class="table-up"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-up"
+                    aria-hidden="true"></i></a></span>
+              <span class="table-down"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-down"
+                    aria-hidden="true"></i></a></span>
+            </td>
+            <td>
+              <span class="table-remove"><button type="button"
+                  class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+            </td>
+          </tr>
+          <!-- This is our clonable table line -->
+          <tr class="hide">
+              <td class="pt-3-half" contenteditable="false">4</td>
+              <td class="pt-3-half" contenteditable="true">HIV Test</td>
+              <td class="pt-3-half" contenteditable="true">10/02/2019</td>
+              <td class="pt-3-half" contenteditable="true">Clear</td>
+              <td class="pt-3-half" contenteditable="true">Dr. Balbido</td>
+              <td class="pt-3-half" contenteditable="true">Avoid unprotected sex</td>
+              <td class="pt-3-half">
+              <span class="table-up"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-up"
+                    aria-hidden="true"></i></a></span>
+              <span class="table-down"><a href="#!" class="indigo-text"><i class="fas fa-long-arrow-alt-down"
+                    aria-hidden="true"></i></a></span>
+            </td>
+            <td>
+              <span class="table-remove"><button type="button"
+                  class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<!-- Editable table -->
+
+<br>
+ <!-- Grid row -->
+ <div style="text-align:right; width: 94.5%;">
+ <button type="submit" class="btn btn-primary btn-md" style="display: inline-block">Submit</button>
+ </div>
+ 
+ <!-- <div style="text-align:right; width: 92%;">
+    <a href="labResult.html" class="btn btn-primary btn-md">List</a>
+</div> -->
+
+</form>
+
+    <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <!-- table js -->
+  <script type="text/javascript" src="js/table.js"></script>
+
+</body>
+</html>
